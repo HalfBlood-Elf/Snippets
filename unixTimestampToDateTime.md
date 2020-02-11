@@ -8,5 +8,5 @@
         return dtDateTime;
     }
 
-## For the .NET Framework 4.6
+## For the .NET Framework >= 4.6
     System.DateTimeOffset.FromUnixTimeSeconds(unixTimeStamp).UtcDateTime;
