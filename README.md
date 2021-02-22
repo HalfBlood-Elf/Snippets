@@ -4,4 +4,3 @@
  - [RSG.Promise](https://github.com/Real-Serious-Games/C-Sharp-Promise)
  - SRDebugger
  - Lean localization
- -
