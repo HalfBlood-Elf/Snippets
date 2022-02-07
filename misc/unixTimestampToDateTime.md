@@ -10,3 +10,8 @@
 
 ## For the .NET Framework >= 4.6
     System.DateTimeOffset.FromUnixTimeSeconds(unixTimeStamp).UtcDateTime;
+
+//https://stackoverflow.com/questions/17632584/how-to-get-the-unix-timestamp-in-c-sharp
+
+## DateTime to unix timestamp
+    long unixTime = ((DateTimeOffset)DateTime.UtcNow).ToUnixTimeSeconds();
