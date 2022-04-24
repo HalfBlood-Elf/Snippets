@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-namespace Argentics.Package.Cinemachine.Samples.InputHandlers
+using UpdateManager;
+namespace InputHandlers
 {
 	public abstract class InputListener : MonoBehaviour, IUpdateble
 	{

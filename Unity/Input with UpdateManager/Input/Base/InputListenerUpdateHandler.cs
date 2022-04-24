@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UpdateManager;
 
-namespace Argentics.Package.Cinemachine.Samples.InputHandlers
+namespace InputHandlers
 {
 	public class InputListenerUpdateHandler : UpdateManager
 	{

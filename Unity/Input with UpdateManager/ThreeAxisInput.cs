@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Argentics.Package.Cinemachine.Samples.InputHandlers
+namespace InputHandlers
 {
 	public class ThreeAxisInput : InputListener
 	{

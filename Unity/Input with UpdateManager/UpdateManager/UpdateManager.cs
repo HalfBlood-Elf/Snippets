@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Argentics
+namespace UpdateManager
 {
 	public abstract class UpdateManager: MonoBehaviour
 	{
