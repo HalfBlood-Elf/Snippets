@@ -1,0 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using WindowSystem;
+
+#ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : Window
+{
+}
+#ROOTNAMESPACEEND#

@@ -1,7 +1,7 @@
 ## Useful unity packages
  - [String field as tag selector](https://github.com/WSWhitehouse/Unity-Tag-Selector)
  - [unity-ui-extensions](https://bitbucket.org/UnityUIExtensions/unity-ui-extensions/wiki/Home)
- - [Recyclable Scroll Rect](https://github.com/MdIqubal/Recyclable-Scroll-Rect) -> my [Recyclable Item Container](https://github.com/HalfBlood-Elf/recyclable-item-container.git)
+ - [Loop Scroll Rect](https://github.com/qiankanglai/LoopScrollRect) -> my [Recyclable Item Container](https://github.com/HalfBlood-Elf/recyclable-item-container.git)
  - [RSG.Promise](https://github.com/Real-Serious-Games/C-Sharp-Promise)
  - SRDebugger
  - Lean localization
