@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace WindowSystem
 {
-    public class RouterDontCloseAnyPrevious : MonoBehaviour, IWindowRouter
+    public class RouterDontCloseAnyPrevious : MonoBehaviour
     {
         protected readonly Dictionary<string, Window> _windows = new();
 

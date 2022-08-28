@@ -1,0 +1,700 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3011944d2eb4c49b3fd9915fb05765, type: 3}
+  m_Name: Input Action Display Config
+  m_EditorClassIdentifier: 
+  deviceConfigs:
+  - name: Keyboard
+    devicePrefixes:
+    - <Keyboard>
+    - Keyboard
+    pathToConfigs:
+    - path: minus
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: '-'
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: equals
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: =
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: backquote
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: '`'
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: leftShift
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: L Shift
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: rightShift
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: R Shift
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: leftAlt
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: L Alt
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: rightAlt
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: R Alt
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: leftCtrl
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: L Ctrl
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: rightCtrl
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: R Ctrl
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: capsLock
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: cpslck
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: scrollLock
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: scrllck
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numLock
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: numlck
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: period
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: .
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: slash
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: /
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: backslash
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: \
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: quote
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: ''''
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: rightBracket
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: ']'
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: leftBracket
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: '['
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: semicolon
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: ;
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: comma
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: ','
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: printScreen
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: prntScrn
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: upArrow
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: up
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: downArrow
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: down
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: rightArrow
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: right
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: rightArrow
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: leftArrow
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: pageUp
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: pg up
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: pageDown
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: pg down
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpadDivide
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd /
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpadMultiply
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd *
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad1
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 1
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad2
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 2
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad3
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 3
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad4
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 4
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad5
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 5
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad6
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 6
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad7
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 7
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad8
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 8
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad9
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 9
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: numpad0
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: npd 0
+        fallbackText: 
+        isMouseConfigUsed: 0
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+  - name: Mouse
+    devicePrefixes:
+    - <Mouse>
+    - Mouse
+    pathToConfigs:
+    - path: middleButton
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: 
+        fallbackText: 
+        isMouseConfigUsed: 1
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 1
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: leftButton
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: 
+        fallbackText: 
+        isMouseConfigUsed: 1
+        mouseButtonConfig:
+          lmbIsActive: 1
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: rightButton
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: 
+        fallbackText: 
+        isMouseConfigUsed: 1
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 1
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: scroll/y
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: 
+        fallbackText: 
+        isMouseConfigUsed: 1
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 1
+          mb4IsActive: 0
+          mb5IsActive: 0
+          wheelUpDownIsActive: 1
+    - path: backButton
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: 
+        fallbackText: 
+        isMouseConfigUsed: 1
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 1
+          mb5IsActive: 0
+          wheelUpDownIsActive: 0
+    - path: forwardButton
+      buttonConfig:
+        isBorderActive: 1
+        isImageUsed: 0
+        image: {fileID: 0}
+        text: 
+        fallbackText: 
+        isMouseConfigUsed: 1
+        mouseButtonConfig:
+          lmbIsActive: 0
+          rmbIsActive: 0
+          mmbIsActive: 0
+          mb4IsActive: 0
+          mb5IsActive: 1
+          wheelUpDownIsActive: 0
