@@ -5,21 +5,31 @@ using UnityEngine;
 
 namespace WindowSystem
 {
-    public class RouterDontCloseAnyPrevious : MonoBehaviour
+    public class RouterDontCloseAnyPrevious
     {
         protected readonly Dictionary<string, Window> _windows = new();
 
         public RouterDontCloseAnyPrevious(IEnumerable<Window> windowsList)
+        {
+            AddWindows(windowsList);
+        }
+
+        public void AddWindows(IEnumerable<Window> windowsList)
         {
             foreach (var window in windowsList)
             {
                 AddWindow(window);
             }
         }
-
-        public virtual void AddWindow(Window window)
+        
+        public void AddWindow(Window window)
         {
-            _windows.Add(window.GetType().Name, window);
+            var windowIdentity = window.GetType().Name;
+            if (!_windows.TryAdd(windowIdentity, window))
+            {
+                Debug.LogError($"{windowIdentity} already registered");
+                
+            }
             window.gameObject.SetActive(false);
         }
 
