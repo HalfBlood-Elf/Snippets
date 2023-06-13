@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace WindowSystem
+namespace Ui.WindowSystem
 {
     public class RouterDontCloseAnyPrevious
     {
@@ -27,8 +27,7 @@ namespace WindowSystem
             var windowIdentity = window.GetType().Name;
             if (!_windows.TryAdd(windowIdentity, window))
             {
-                Debug.LogError($"{windowIdentity} already registered");
-                
+                Debug.LogError($"{windowIdentity} already registered", window);
             }
             window.gameObject.SetActive(false);
         }
@@ -38,18 +37,16 @@ namespace WindowSystem
             return (T)Show(typeof(T).Name);
         }
 
-        public virtual Window Show(string windowIdentity, Action callback = null)
+        public virtual Window Show(string windowIdentity, object infoToShow = null, Action callback = null)
         {
             if (_windows.TryGetValue(windowIdentity, out Window foundWindow))
             {
-                foundWindow.Show(callback);
+                foundWindow.Show(infoToShow, callback);
                 return foundWindow;
             }
-            else
-            {
-                Debug.LogError($"{windowIdentity} not registered");
-                return null;
-            }
+
+            Debug.LogError($"{windowIdentity} not registered");
+            return null;
         }
 
         public virtual T Hide<T>(Action callback = null) where T : Window

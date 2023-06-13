@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace WindowSystem
+namespace Ui.WindowSystem
 {
 	public class MenuTabButton : MonoBehaviour
     {
